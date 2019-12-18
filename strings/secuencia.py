@@ -6,7 +6,7 @@ caracteres = len(curso); #Para obtener la cantidad de caracteres del string
 indice = curso[0]; #Obtener la letra en la posicion 0
 #print(indice);
 
-copia = curso[0:16:3]; #Crear un subtring a partir de la variable curso 
+copia = curso[0:16:3]; #Crear un substring a partir de la variable curso 
 print(copia);
 
 #curso[0] = "K"; Retorna un error debido a que los strings son inmutables
