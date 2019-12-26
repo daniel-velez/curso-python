@@ -1,7 +1,9 @@
 class Usuario:
-    pass
+    def Saludo(self):
+        print("Hola, soy un usuario");
 
 pro = Usuario();
 bando = Usuario();
 
-print(type(pro));
+pro.Saludo();
+bando.Saludo();
